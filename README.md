@@ -1,13 +1,7 @@
 # cpsc449-fall2023-project3
-CPSC 449 - Fall 2023 - Project 3 - Polyglot Persistence and Functional Partitioning
+Course Enrollment API Microservice
 
-Project members:
-- Jimmy Quach
-- Eric Licea
-- Shadi Nachat
-- Kyle Whynott
-- Gouri Babasaheb Sabale
-- Juan Uriarte
+
 
 
 # Development
