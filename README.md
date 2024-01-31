@@ -4,7 +4,7 @@
    This project aims to create a RESTful web service with FastAPI for course enrollment, authentication, and
 notifications.I have used krakend for API gateway implementation. Redis is used for wait lists, DynamoDB local for enrollment data partitioning,
 and RabbitMQ integration is done for precise email and Webhook notifications to subscribers.
-   Enrollment and authentication services are independent from each other and they can be executed seperately which makes follow microservices architecture.
+   Enrollment and authentication services are independent from each other and they can be executed seperately which makes them follow microservices architecture.
    When the user is authenticated, all the requests go to backend through API Gateway which is desgined using Krakend.
 
 
