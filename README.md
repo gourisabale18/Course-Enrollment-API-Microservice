@@ -1,5 +1,5 @@
 
-Course Enrollment API Microservice
+# Course Enrollment API Microservice
 
 This project aims to create a RESTful web service with FastAPI for course enrollment, authentication, and
 notifications.I have used krakend for API gateway implementation. Redis is used for wait lists, DynamoDB local for enrollment data partitioning,
