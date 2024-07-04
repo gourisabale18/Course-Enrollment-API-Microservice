@@ -1,5 +1,5 @@
 
-# Course Enrollment API Microservice
+## Course Enrollment API Microservice
 
    This project aims to create a RESTful web service with FastAPI for course enrollment, authentication, and
 notifications.I have used krakend for API gateway implementation. Redis is used for wait lists, DynamoDB local for enrollment data partitioning,
@@ -7,7 +7,7 @@ and RabbitMQ integration is done for precise email and Webhook notifications to 
    Enrollment and authentication services are independent from each other and they can be executed seperately which makes them follow microservices architecture.
    When the user is authenticated, all the requests go to backend through API Gateway which is desgined using Krakend.
 
-## Tech Stack Used:
+### Tech Stack Used:
 1. Python FastAPI web application framework
 2. Krakend API gateway
 3. JWT token authentication
@@ -17,7 +17,7 @@ and RabbitMQ integration is done for precise email and Webhook notifications to 
 7. GraphQL Queries, SQLite database
 8. Redis cache
 
-## Development
+### Development
 
 1. Set working directory as this project's directory
 
