@@ -149,7 +149,7 @@ To ensure the smooth execution and success of our polyglot persistence project, 
       d.	Check notification in the console
       ![image](https://github.com/user-attachments/assets/6aa007d8-631a-4c69-88e8-c9f93702285c)
 
-   #### 5.	Cache waiting list positions
+    5.	Cache waiting list positions
    
       a.	Attempt to enroll a student in a class that is full so they are added to waitlist
      	![image](https://github.com/user-attachments/assets/7c48d711-47e8-400f-9cbf-9a4ff10a5cd8)
@@ -157,7 +157,7 @@ To ensure the smooth execution and success of our polyglot persistence project, 
       b.	Check position in the browser and look at response code
       ![image](https://github.com/user-attachments/assets/c7ecaab6-b7dc-416a-b7d5-9b975562d90a)
    
-  #### Here we see the return was successful given the response and the status code returned
+   Here we see the return was successful given the response and the status code returned
       ![image](https://github.com/user-attachments/assets/c337c206-c16d-4d67-8a13-e922f0bfc7f1)
 
 
