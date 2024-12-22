@@ -19,55 +19,56 @@ In this project, our goal is to immerse ourselves in the world of polyglot persi
 ### Database Configuration:
    Configure and fine-tune Redis and DynamoDB Local.
    Ensure both databases are seamlessly integrated into our back-end setup.
-Data Partitioning:
-Allocate waiting list data to Redis, leveraging its high performance and scalability for real-time data handling.
-Store all other data in DynamoDB Local, utilizing its robustness and consistency for comprehensive data management.
-Functional Partitioning:
-Implement functional partitioning within the enrollment service.
-Optimize each database's functionality to support specific aspects of the service.
-Data Modeling:
-Develop a tailored data model for each database.
-Ensure that the data models align with our application's requirements and the databases' capabilities.
-Testing:
-Conduct thorough testing of enrollment API endpoints.
-Validate the effectiveness of our polyglot persistence approach in handling diverse data needs.
+### Data Partitioning:
+   Allocate waiting list data to Redis, leveraging its high performance and scalability for real-time data handling.
+   Store all other data in DynamoDB Local, utilizing its robustness and consistency for comprehensive data management.
+### Functional Partitioning:
+   Implement functional partitioning within the enrollment service.
+   Optimize each database's functionality to support specific aspects of the service.
+### Data Modeling:
+   Develop a tailored data model for each database.
+   Ensure that the data models align with our application's requirements and the databases' capabilities.
+### Testing:
+   Conduct thorough testing of enrollment API endpoints.
+   Validate the effectiveness of our polyglot persistence approach in handling diverse data needs.
 
 ## Project Tasks
 To successfully implement our project goals, we have outlined a series of tasks that cover the entire scope of integrating polyglot persistence using Redis and DynamoDB Local in our back-end setup. These tasks are designed to ensure a comprehensive and methodical approach to the project:
-Installation and Configuration:
-●	Redis Configuration: Setting up and configuring Redis to work seamlessly with our back-end.
-●	AWS CLI Installation: Installing the AWS Command Line Interface, essential for interacting with Amazon Web Services.
-●	DynamoDB Local Setup: Installing and configuring DynamoDB Local for a development environment.
-SDK Installation and Usage:
-●	AWS SDK for Python (Boto3) Installation: Installing the AWS SDK to enable Python applications to interact with DynamoDB Local.
-●	Connecting to DynamoDB Local from Python: Establishing a connection between our Python applications and DynamoDB Local.
-Data Partitioning for Enrollment Service:
-●	Redis for Waiting Lists: Utilizing Redis for managing waiting list data due to its efficiency in handling real-time, mutable data.
-●	DynamoDB Local for Other Data: Storing other types of data in DynamoDB
-Local, leveraging its capabilities for handling larger and more complex data sets.
-Database Design and Modeling:
-●	Redis Data Model: Designing a data model for Redis that optimizes its key-value store nature.
-●	DynamoDB Local Data Model: Creating a data model for DynamoDB Local, considering its NoSQL characteristics.
-●	Indexing and Query Optimization: Implementing indexing strategies and query optimizations to enhance database performance.
-Testing and Validation:
-●	Endpoint Functionality Tests: Conducting tests to ensure that all API endpoints function as expected, interacting correctly with both Redis and DynamoDB Local.
-●	Data Integrity Checks: Performing checks to ensure data integrity and consistency across both databases.
+
+### Installation and Configuration:
+   ●	Redis Configuration: Setting up and configuring Redis to work seamlessly with our back-end.
+   ●	AWS CLI Installation: Installing the AWS Command Line Interface, essential for interacting with Amazon Web Services.
+   ●	DynamoDB Local Setup: Installing and configuring DynamoDB Local for a development environment.
+### SDK Installation and Usage:
+   ●	AWS SDK for Python (Boto3) Installation: Installing the AWS SDK to enable Python applications to interact with DynamoDB Local.
+   ●	Connecting to DynamoDB Local from Python: Establishing a connection between our Python applications and DynamoDB Local.
+### Data Partitioning for Enrollment Service:
+   ●	Redis for Waiting Lists: Utilizing Redis for managing waiting list data due to its efficiency in handling real-time, mutable data.
+   ●	DynamoDB Local for Other Data: Storing other types of data in DynamoDB
+   Local, leveraging its capabilities for handling larger and more complex data sets.
+### Database Design and Modeling:
+   ●	Redis Data Model: Designing a data model for Redis that optimizes its key-value store nature.
+   ●	DynamoDB Local Data Model: Creating a data model for DynamoDB Local, considering its NoSQL characteristics.
+   ●	Indexing and Query Optimization: Implementing indexing strategies and query optimizations to enhance database performance.
+### Testing and Validation:
+   ●	Endpoint Functionality Tests: Conducting tests to ensure that all API endpoints function as expected, interacting correctly with both Redis and DynamoDB Local.
+   ●	Data Integrity Checks: Performing checks to ensure data integrity and consistency across both databases.
 
 ## Project Requirements
 To ensure the smooth execution and success of our polyglot persistence project, there are several key requirements that must be met. These requirements are crucial for creating an efficient and effective development environment, particularly given our focus on integrating Redis and DynamoDB Local. Here's what we need:
-Operating System:
-●	Ubuntu 22
-Database Systems:
-●	Redis Installation: Redis must be installed and properly configured on all team members' systems. Redis will play a crucial role in managing real-time, mutable data such as waiting lists.
-●	DynamoDB Local Installation: We need to install DynamoDB Local to handle more complex data sets. This will allow us to simulate the AWS DynamoDB environment locally for development and testing purposes.
-Programming Language and Libraries:
-●	Python Setup: As our primary programming language, Python needs to be installed on all machines. Ensure that the Python version is compatible with all the tools and libraries we will be using.
-●	Necessary Python Libraries: Several Python libraries are integral to our project. This includes Boto3 for AWS interactions, libraries for connecting and interacting with Redis, and any other libraries essential for our project's development.
-Development Tools:
-●	IDEs and Code Editors: Team members should have their preferred Integrated Development Environments (IDEs) and code editors ready. These tools should support Python development and be compatible with Tuffix 2022.
-●	Version Control: A version control system, like Git, will be necessary for collaborative development and code management.
-Documentation and Reporting Tools:
-●	Documentation Software: Since documentation is key to our project's success, we should have access to tools for creating and managing documentation, such as Markdown editors or LaTeX for more formal documentation needs.
+### Operating System:
+   ●	Ubuntu 22
+### Database Systems:
+   ●	Redis Installation: Redis must be installed and properly configured on all team members' systems. Redis will play a crucial role in managing real-time, mutable data such as waiting lists.
+   ●	DynamoDB Local Installation: We need to install DynamoDB Local to handle more complex data sets. This will allow us to simulate the AWS DynamoDB environment locally for development and testing purposes.
+### Programming Language and Libraries:
+   ●	Python Setup: As our primary programming language, Python needs to be installed on all machines. Ensure that the Python version is compatible with all the tools and libraries we will be using.
+   ●	Necessary Python Libraries: Several Python libraries are integral to our project. This includes Boto3 for AWS interactions, libraries for connecting and interacting with Redis, and any other libraries essential for our project's development.
+### Development Tools:
+   ●	IDEs and Code Editors: Team members should have their preferred Integrated Development Environments (IDEs) and code editors ready. These tools should support Python development and be compatible with Tuffix 2022.
+   ●	Version Control: A version control system, like Git, will be necessary for collaborative development and code management.
+### Documentation and Reporting Tools:
+   ●	Documentation Software: Since documentation is key to our project's success, we should have access to tools for creating and managing documentation, such as Markdown editors or LaTeX for more formal documentation needs.
 
 
 ### Development
