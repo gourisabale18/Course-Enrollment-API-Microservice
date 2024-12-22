@@ -125,49 +125,39 @@ To ensure the smooth execution and success of our polyglot persistence project, 
 
    ## Project Tasks Screenshots
   #### 1.	Subscribe to notifications for a new course
-      
       ![image](https://github.com/user-attachments/assets/a28ca487-5331-4010-bde1-55a987cdfba9)
-     	
+     
       ![image](https://github.com/user-attachments/assets/5191c477-97b9-41ec-8b0a-8f788a3ce0cd)
 
    #### 2.	List their current subscriptions
-   
      ![image](https://github.com/user-attachments/assets/0948d000-6228-4c4e-b86d-2450dce7f721)
 
    #### 3.	Unsubscribe from a course
-   
       ![image](https://github.com/user-attachments/assets/b5c61cc4-e01a-4f06-8972-151676cc0240)
      	
    #### 4.	Consume an enrollment notification
    
       a.	Subscribe a student to the notification service
-      
      	![image](https://github.com/user-attachments/assets/6c5dc8e6-e595-4735-a994-65700c3ff1e7)
      	
      	b.	Attempt to enroll the student in a class that is full to be added to the waitlist
-      
      	![image](https://github.com/user-attachments/assets/2670b058-6183-4321-9c7e-ac084b44c78b)
 
       c.	Drop another student from the waitlist so waitlisted student will be auto enrolled
-      
       ![image](https://github.com/user-attachments/assets/d9ad5365-5c05-452c-9ec5-81de2a2b58a1)
 
       d.	Check notification in the console
-      
       ![image](https://github.com/user-attachments/assets/6aa007d8-631a-4c69-88e8-c9f93702285c)
 
    #### 5.	Cache waiting list positions
    
       a.	Attempt to enroll a student in a class that is full so they are added to waitlist
-      
      	![image](https://github.com/user-attachments/assets/7c48d711-47e8-400f-9cbf-9a4ff10a5cd8)
 
       b.	Check position in the browser and look at response code
-      
       ![image](https://github.com/user-attachments/assets/c7ecaab6-b7dc-416a-b7d5-9b975562d90a)
    
   #### Here we see the return was successful given the response and the status code returned
-
       ![image](https://github.com/user-attachments/assets/c337c206-c16d-4d67-8a13-e922f0bfc7f1)
 
 
