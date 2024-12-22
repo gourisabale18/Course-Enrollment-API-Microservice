@@ -36,9 +36,9 @@ In this project, our goal is to immerse ourselves in the world of polyglot persi
 To successfully implement our project goals, we have outlined a series of tasks that cover the entire scope of integrating polyglot persistence using Redis and DynamoDB Local in our back-end setup. These tasks are designed to ensure a comprehensive and methodical approach to the project:
 
 ### Installation and Configuration:
-   ●	Redis Configuration: Setting up and configuring Redis to work seamlessly with our back-end.
-   ●	AWS CLI Installation: Installing the AWS Command Line Interface, essential for interacting with Amazon Web Services.
-   ●	DynamoDB Local Setup: Installing and configuring DynamoDB Local for a development environment.
+   * Redis Configuration: Setting up and configuring Redis to work seamlessly with our back-end.
+   * AWS CLI Installation: Installing the AWS Command Line Interface, essential for interacting with Amazon Web Services.
+      *	DynamoDB Local Setup: Installing and configuring DynamoDB Local for a development environment.
 ### SDK Installation and Usage:
    ●	AWS SDK for Python (Boto3) Installation: Installing the AWS SDK to enable Python applications to interact with DynamoDB Local.
    ●	Connecting to DynamoDB Local from Python: Establishing a connection between our Python applications and DynamoDB Local.
