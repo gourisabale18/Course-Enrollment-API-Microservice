@@ -16,9 +16,9 @@ This project is an immersive exercise in implementing polyglot persistence, a co
 
 ## Project Objectives
 In this project, our goal is to immerse ourselves in the world of polyglot persistence, a key aspect of modern back-end development. We will achieve this by integrating two distinct database systems - Redis and Amazon DynamoDB Local - into our existing back-end architecture. Our approach involves a strategic split of data between these databases, utilizing each for its strengths.
-Database Configuration:
-Configure and fine-tune Redis and DynamoDB Local.
-Ensure both databases are seamlessly integrated into our back-end setup.
+### Database Configuration:
+   Configure and fine-tune Redis and DynamoDB Local.
+   Ensure both databases are seamlessly integrated into our back-end setup.
 Data Partitioning:
 Allocate waiting list data to Redis, leveraging its high performance and scalability for real-time data handling.
 Store all other data in DynamoDB Local, utilizing its robustness and consistency for comprehensive data management.
